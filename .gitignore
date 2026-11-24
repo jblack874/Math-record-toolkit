@@ -1,0 +1,10 @@
+__pycache__/
+*.o
+*.out
+qv/
+q.txt
+proof_*.json
+exch_*.json
+inc_pass_*.json
+ex_*.json
+dr_*.json
