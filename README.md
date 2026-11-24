@@ -8,7 +8,7 @@ These are the scripts behind a run of record attempts on Terence Tao's [optimiza
 
 | Folder | Problem | What the scripts do | Outcome |
 |---|---|---|---|
-| `krawczyk-cylinders/` | Nine pairwise touching unit cylinders (AlphaEvolve 54) | Interval-Newton (Krawczyk) existence proof for a 52×52 polynomial system; two independent checkers (python-flint arb balls; mpmath.iv with forward-mode AD) | First rigorous proof that 9 touching cylinders exist ([issue #26](https://github.com/google-deepmind/alphaevolve_repository_of_problems/issues/26)) |
+| `krawczyk-cylinders/` | Nine pairwise touching cylinders, unequal radii (AlphaEvolve 54) | Interval-Newton (Krawczyk) existence proof for a 52×52 polynomial system; two independent checkers (python-flint arb balls; mpmath.iv with forward-mode AD) | First rigorous proof that 9 touching cylinders exist ([issue #26](https://github.com/google-deepmind/alphaevolve_repository_of_problems/issues/26)) |
 | `krawczyk-designs/` | Spherical t-designs (AlphaEvolve 32) | Krawczyk certification of numerical designs; gauge fixing plus column-pivoted QR for spare coordinates | N = 124, 198, 234 certified |
 | `line-packings/` | Packing N lines in R³ (Grassmannian G(3,1)) | Repulsion warm start then SLSQP max-min search; exact rational checker and 50-digit interval checker | N = 20, 22, 26, 49, 54 beat Sloane's table (sent to Sloane 11/24) |
 | `ramsey-k5-cayley/` | Ramsey multiplicity of K₅ (registry 89b) | Fast C evaluator for monochromatic-K₅ density of a Cayley step graphon on F₂⁸; KKT gradient, Hessian, single and pair flip searches | Showed the 0.001648970526* record is a strict local minimum in its class |
